@@ -1,0 +1,68 @@
+.menu123{
+	padding:1px;}
+.menu123 ul{
+	z-index:100;
+	margin:0;
+	padding: 0 0 0 30px;}
+                                                       /*Top level list items*/
+.menu123 ul li{
+	position:relative;
+	display:inline;
+	float:left;}
+                                                  /*Top level menu link items style*/
+.menu123 ul li a {
+	display:block;
+	height:35px;
+	padding: 0 30px 0 20px;
+	line-height:42px;
+	font-size:14px;
+	color:white;	
+	text-align:center;
+	font-weight:400;
+	outline:none;}
+.menu123 ul li a.selected, .menu123 ul li a:hover {color:skyblue;}
+.menu123 ul li ul span.bottom {position: absolute; width: 108px; height: 13px; bottom: -13px; left: 0 }
+
+                                                   /* Chat Button */
+                                                   
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid white;
+  z-index: 9;}
+  .open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;}
+  .form-container textarea {                   /*Text Area */
+  width:100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border:none;
+  background:pink;
+  resize: none;
+  min-height: 200px;}
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color:skyblue;}
+.form-container .btn {                         /* Send Button*/
+  background-color:green;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;}
+.form-container .cancel {                      /* Close Button*/
+  background-color: red;}
