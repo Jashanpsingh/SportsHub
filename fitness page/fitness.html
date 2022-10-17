@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise & Fitness</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="fitness.css">  		
+</head>
+<body>
+	<div id="wholepage">
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <p class="navbar-brand" style="color: red;text-shadow: 0px 0px 4px pink;">SportsHub</p>
+	    </div>
+	    <ul class="nav navbar-nav list-inline">
+	      <li><a href="../Home page/Sports website.html" style="color: cyan;" class="link1"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+
+	      <li class="dropdown">
+	        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: cyan;" class="link4"><span class="glyphicon glyphicon-th-list"></span>Items
+	        <span class="caret"></span></a>
+	        <ul class="dropdown-menu" style="background-color: skyblue;color: blue;">
+	          <li><a href="#Dumbbells">Dumbbells</a></li>
+	          <li><a href="#Ropes">Skipping Ropes</a></li>
+	          <li><a href="#Bars">Bars</a></li>
+	          <li><a href="#Bands">Fitness Bands</a></li>
+	          <li><a href="#Treadmills">Treadmills</a></li>
+	          <li><a href="#Bikes">Exercise Bikes</a></li>
+	          <li><a href="#abs">Ab Exercisers</a></li>
+	          <li><a href="#acc">Useful Accessories</a></li>
+
+	        </ul>
+	      </li>
+	    </ul>
+	    <ul class="nav navbar-nav navbar-right list-inline">
+	      <li><a href="../services page/services.html" style="color: cyan;" class="link3"><span class="glyphicon glyphicon-plane"></span> Services</a></li>
+	      <li class="cart">
+	      	<button style="color: cyan;margin-top: 10px;font-size:18px;background-color: purple" id="basket" class="link4 btn">
+	      		<ion-icon name="basket"></ion-icon> Cart <span id="totalCount">0</span>
+	      	</button>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+
+	<div id="main-Body">
+		<h1 id="heading1">Exercise and Fitness</h1>
+		<hr>
+		<p class="itemsname" id="Dumbbells">Dumbbells</p>
+		<div class="items">
+			<div class="item" id="dumbbell1">
+				<img src="images/8-8kg-pvc-combo-sbr-sports-original-imafxcmvvgzhhwj8.jpeg">
+				<p>Adrenex by Flipkart 20 kg PVC Home Gym, Adjustable Dumbbell  (20 kg)</p>
+				<p class="mrp">Rs. 1,099 <s>Rs.3,499</s></p>
+				<p class="rating">Ratings: 3.8 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/Dumbbell2.jpeg">
+				<p>Neulife 8kg Dumbbell set Adjustable Dumbbell  (8 kg)</p>
+				<p class="mrp">Rs. 717 <s>Rs.1,999</s></p>
+				<p class="rating">Ratings: 3.9 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>				
+			</div>
+			<div class="item">
+				<img src="images/dumbbell3.jpeg">
+				<p>COGNANT 20kg (4 * 3kg + 4 * 2kg) PVC Plates with Adjustable Dumbbell  (21 kg)</p>
+				<p class="mrp">Rs. 999 <s>Rs.1,999</s></p>
+				<p class="rating">Ratings: 3.7 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/dumbbell4.jpeg">
+				<p>DreamFit 20 kg PVC Home Gym Combo, Adjustable Dumbbell  (20 kg)</p>
+				<p class="mrp">Rs. 1,049 <s>Rs.1,999</s></p>
+				<p class="rating">Ratings: 3.8 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>				
+			</div>
+			<div class="item">
+				<img src="images/dumbbell5.jpeg">
+				<p>Pro-toner pvc 36kg with star nut rod Adjustable Dumbbell  (36 kg)</p>
+				<p class="mrp">Rs. 1,499 <s>Rs.2,799</s></p>
+				<p class="rating">Ratings: 3.7 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>					
+			</div>
+			<div class="item">
+				<img src="images/dumbbell6.jpeg">
+				<p>KRX PVC-DM-22KG-COMBO4 Adjustable Dumbbell  (22 kg)</p>
+				<p class="mrp">Rs. 1,499 <s>Rs.2,799</s></p>
+				<p class="rating">Ratings: 3.7 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>				
+			</div>
+			<div class="item">
+				<img src="images/dumbbell7.jpeg">
+				<p>BlissMo Pvc 12 Kg (3 Kg X4) Adjustable Dumbbell  (12.5 kg)</p>
+				<p class="mrp">Rs. 1,499 <s>Rs.2,799</s></p>
+				<p class="rating">Ratings: 3.7 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/dumbbell8.jpeg">
+				<p>DreamFit Pair Of 3 Kg Rubber Coated Hex Dumbells(6 kg)</p>
+				<p class="mrp">Rs. 1,049 <s>Rs.1,999</s></p>
+				<p class="rating">Ratings: 4.4 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>			
+			</div>
+		</div>
+		<hr>
+		<p class="itemsname" id="Ropes">Skipping Ropes</p>
+		<div class="items">
+			<div class="item">
+				<img src="images/skippingropes1.jpeg">
+				<p>Ruban Gear Unisex Fitness Jumping Skipping Rope (Brown, Length: 230 cm)</p>
+				<p class="mrp">Rs. 179 <s>Rs.399</s></p>
+				<p class="rating">Ratings: 3.7 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/skippingropes2.jpeg">
+				<p>Resh Blue adjustable Ball Bearing Skipping Rope  (Blue, Length: 275 cm)</p>
+				<p class="mrp">Rs. 139 <s>Rs.299</s></p>
+				<p class="rating">Ratings: 4.2 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/skippingropes3.jpeg">
+				<p>BOLDFIT Exercise Workout Freestyle Skipping Rope  (Length: 280 cm)</p>
+				<p class="mrp">Rs. 489 <s>Rs.699</s></p>
+				<p class="rating">Ratings: 4.2 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/skippingropes4.jpeg">
+				<p>Adrenex Basic Freestyle Skipping Rope  (Black, Length: 115.5 inch)</p>
+				<p class="mrp">Rs. 129 <s>Rs.249</s></p>
+				<p class="rating">Ratings: 4.1 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>	
+		</div>
+		<hr>
+		<p class="itemsname" id="Bars">Bars</p>
+		<div class="items">
+			<div class="item">
+				<img src="images/bars1.jpeg">
+				<p>Online World PushUp Stand with Foam Grip Handle for Fitness Exercise</p>
+				<p class="mrp">Rs. 210 <s>Rs.999</s></p>
+				<p class="rating">Ratings: 3.8 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/bars2.jpeg">
+				<p>Pro-toner Dynamic Wall Mounting Chin up Bar Combo Chin-up Bar  (Black)</p>
+				<p class="mrp">Rs. 1849 <s>Rs.7,499</s></p>
+				<p class="rating">Ratings: 3.9 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/bars3.jpeg">
+				<p>GOCART Door Mounted Pull up bar For For Men And Woman</p>
+				<p class="mrp">Rs. 799 <s>Rs.1,499</s></p>
+				<p class="rating">Ratings: 4.2 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/bars4.jpeg">
+				<p>WDS Biceps Triceps Rope Triceps Bar for Fitness Workouts</p>
+				<p class="mrp">Rs. 799 <s>Rs.1,499</s></p>
+				<p class="rating">Ratings: 4.2 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>	
+			<div class="item">
+				<img src="images/bars5.jpeg">
+				<p>Pro 3 Ft Straight Rod/3 Ft Curl Rod/For Gym Weight Lifting Bar  (Silver)</p>
+				<p class="mrp">Rs. 666 <s>Rs.1,252</s></p>
+				<p class="rating">Ratings: 3.5 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>	
+			<div class="item">
+				<img src="images/bars6.jpeg">
+				<p>ISF Cable Attachment Gym Handle Combo Multi-training Bar</p>
+				<p class="mrp">Rs. 1,899 <s>Rs.4,599</s></p>
+				<p class="rating">Ratings: 4.1 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>	
+			<div class="item">
+				<img src="images/bars7.jpeg">
+				<p>Aurion 23 MM 5 Feet Gym Solid Straight Bar with 2 Locks Weight Lifting Bar</p>
+				<p class="mrp">Rs. 749 <s>Rs.999</s></p>
+				<p class="rating">Ratings: 4.4 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/bars8.jpeg">
+				<p>MTN -Height Increasing Hanging Pull Up Bar of 4 Feet Chin-up Bar  (Multicolor)</p>
+				<p class="mrp">Rs. 355 <s>Rs.899</s></p>
+				<p class="rating">Ratings: 4.2 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>					
+		</div>
+		<hr>
+		<p class="itemsname" id="Bands">Fitness Bands</p>
+		<div class="items">
+			<div class="item">
+				<img src="images/Bands1.jpeg">
+				<p>SERVEUTTAM Wrist and sports band pure cotton Fitness Band  (Black)</p>
+				<p class="mrp">Rs. 129 <s>Rs.600</s></p>
+				<p class="rating">Ratings: 3.8 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/Bands2.jpeg">
+				<p>Shopeleven Pull rope Rubber Band Resistance Tube for Workout Exercise</p>
+				<p class="mrp">Rs.249 <s>Rs.999</s></p>
+				<p class="rating">Ratings: 3.9 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/Bands3.jpeg">
+				<p>Hemovia home workout gym exercise Resistance Band  (Pack of 11)</p>
+				<p class="mrp">Rs. 1,199 <s>Rs.1,999</s></p>
+				<p class="rating">Ratings: 3.5 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/Bands4.jpeg">
+				<p>KOBO Power Aerobic Cardio & Exercise Resistance Band  (Green)</p>
+				<p class="mrp">Rs. 620 <s>Rs.1,200</s></p>
+				<p class="rating">Ratings: 4 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+		</div>
+		<hr>
+		<p class="itemsname" id="Treadmills">Treadmills</p>
+		<div class="items">
+			<div class="item">
+				<img src="images/treadmills1.jpeg">
+				<p>Powermax Fitness MFT-410-4 in 1 Multifunction Manual Treadmill </p>
+				<p class="mrp">Rs. 12,999 <s>Rs.29,500</s></p>
+				<p class="rating">Ratings: 4 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/treadmills2.jpeg">
+				<p>RPM Fitness RPM717 (2 HP) Carbon Motorized Treadmill</p>
+				<p class="mrp">Rs. 14,999 <s>Rs.41,000</s></p>
+				<p class="rating">Ratings: 4.3 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/treadmills3.jpeg">
+				<p>Lifelong LLTM09 Fit Pro 2.5HP with Heart Rate Sensor, Motorized Treadmill</p>
+				<p class="mrp">Rs. 16,999 <s>Rs.41,000</s></p>
+				<p class="rating">Ratings: 4.4 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/treadmills4.jpeg">
+				<p>Sparnod Fitness STH-1200 (3 HP Peak) Automatic Treadmill Motorized Treadmill</p>
+				<p class="mrp">Rs. 16,999 <s>Rs.35,000</s></p>
+				<p class="rating">Ratings: 4.3 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>		
+		</div>
+		<hr>
+		<p class="itemsname" id="Bikes">Exercise Bikes</p>
+		<div class="items">
+			<div class="item">
+				<img src="images/bikes1.jpeg">
+				<p>Reach AB-110 Exercise Cycle With Moving Handles Fitness Gym Bike</p>
+				<p class="mrp">Rs. 6,999 <s>Rs.12,000</s></p>
+				<p class="rating">Ratings: 4.1 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/bikes2.jpeg">
+				<p>RPM Fitness RPM1001 Airbike with Back Seat Upright Stationary Exercise Bike</p>
+				<p class="mrp">Rs. 6,999 <s>Rs.13,990</s></p>
+				<p class="rating">Ratings: 4.3 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/bikes3.jpeg">
+				<p>RPM Fitness RPM600 (30lbs Flywheel) Exercise Bike  (Black)</p>
+				<p class="mrp">Rs. 14,999 <s>Rs.40,599</s></p>
+				<p class="rating">Ratings: 4.3 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/bikes4.jpeg">
+				<p>RPM Fitness RPM610 (14lbs Flywheel) Exercise Bike  (Black)</p>
+				<p class="mrp">Rs. 12,499 <s>Rs.25,999</s></p>
+				<p class="rating">Ratings: 4.4 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>			
+		</div>
+		<hr>
+		<p class="itemsname" id="abs">Ab Exercisers</p>
+		<div class="items">
+			<div class="item">
+				<img src="images/abs1.jpeg">
+				<p>Manogyam Abdominal Double Wheel Ab Roller Ab Exerciser  (Multicolor)</p>
+				<p class="mrp">Rs. 225 <s>Rs.599</s></p>
+				<p class="rating">Ratings: 4.1 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>
+			<div class="item">
+				<img src="images/abs2.jpeg">
+				<p>Urban Gear Double Spring Tummy Trimmer,Ab Exerciser  (Black)</p>
+				<p class="mrp">Rs. 329 <s>Rs.1,380</s></p>
+				<p class="rating">Ratings: 4 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>	
+			<div class="item">
+				<img src="images/abs3.jpeg">
+				<p>MARCRAZY fitness accessories combo Ab Exerciser  (Multicolor)</p>
+				<p class="mrp">Rs. 539 <s>Rs.3,125</s></p>
+				<p class="rating">Ratings: 3.9 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>	
+			<div class="item">
+				<img src="images/abs4.jpeg">
+				<p>ADONYX TUMMY TRIMMER DOUBLE SPRING Ab Exerciser  (Black)</p>
+				<p class="mrp">Rs. 249 <s>Rs.1,299</s></p>
+				<p class="rating">Ratings: 4 <span class="glyphicon glyphicon-star"></span></p>
+				<button class="buy-now">Buy-now</button>
+				<button class="add-cart" onclick="addCart()">Add to Cart</button>
+			</div>	
+		</div>
+	</div>
+	<hr>
+	<p class="itemsname" id="acc">Other Useful Accessories</p>
+	<div class="items">
+		<div class="item">
+			<img src="images/700-classic-bottle-titan-380ml-fitkit-original-imaftrp2jt4zsggj.jpeg">
+			<p>FITKIT Classic Bottle 700 ml Shaker  (Pack of 1, Brown, Plastic)</p>
+			<p class="mrp">Rs. 139 <s>Rs. 449</s></p>
+			<p class="rating">Ratings: 4.3 <span class="glyphicon glyphicon-star"></span></p>
+			<button class="buy-now">Buy-now</button>
+			<button class="add-cart" onclick="addCart()">Add to Cart</button>
+		</div>
+		<div class="item">
+			<img src="images/700-max-gym-bottle-gpo70420172g-jaypee-plus-original-imaf2f6fpugpjqqz.jpeg">
+			<p>Jaypee Plus Max Gym bottle 700 ml Shaker  (Pack of 1, Black, Plastic)</p>
+			<p class="mrp">Rs. 173 <s>Rs. 699</s></p>
+			<p class="rating">Ratings: 4.2 <span class="glyphicon glyphicon-star"></span></p>
+			<button class="buy-now">Buy-now</button>
+			<button class="add-cart" onclick="addCart()">Add to Cart</button>
+		</div>
+		<div class="item">
+			<img src="images/na-abdominal-belt-after-c-xxxl-abd-grey-xxxl-28-wonder-care-64-original-imafknzgpdcffzwt.jpeg">
+			<p>Wonder Care Abdominal Belt after Abdomen Support  (Grey)</p>
+			<p class="mrp">Rs. 262 <s>Rs. 775</s></p>
+			<p class="rating">Ratings: 3.8 <span class="glyphicon glyphicon-star"></span></p>
+			<button class="buy-now">Buy-now</button>
+			<button class="add-cart" onclick="addCart()">Add to Cart</button>
+		</div>
+		<div class="item">
+			<img src="images/na-premium-magnetic-posture-corrector-pc-101-free-size-101-60-original-imafzqf3uk6hpv8a.jpeg">
+			<p>Curify 10 Big Magnets Posture Corrector Belt Back & Abdomen Support  (Black)</p>
+			<p class="mrp">Rs. 299 <s>Rs. 999</s></p>
+			<p class="rating">Ratings: 3.4 <span class="glyphicon glyphicon-star"></span></p>
+			<button class="buy-now">Buy-now</button>
+			<button class="add-cart" onclick="addCart()">Add to Cart</button>
+		</div>
+		<div class="item">
+			<img src="images/ankle-binder-tynor-original-imafvebqbzexkypj.jpeg">
+			<p>TYNOR Ankle Binder Ankle Support Value for Money (Blue)</p>
+			<p class="mrp">Rs. 202 <s>Rs. 320</s></p>
+			<p class="rating">Ratings: 4.1 <span class="glyphicon glyphicon-star"></span></p>
+			<button class="buy-now">Buy-now</button>
+			<button class="add-cart" onclick="addCart()">Add to Cart</button>
+		</div>
+		<div class="item">
+			<img src="images/s-basic-duffle-bag-6853-nivia-5-original-imaffy4vmyatfh5r.jpeg">
+			<p>NIVIA Basic Duffle Bag  Value for Money(Black, Kit Bag)</p>
+			<p class="mrp">Rs. 219 <s>Rs. 299</s></p>
+			<p class="rating">Ratings: 4.2 <span class="glyphicon glyphicon-star"></span></p>
+			<button class="buy-now">Buy-now</button>
+			<button class="add-cart" onclick="addCart()">Add to Cart</button>
+		</div>
+		<div class="item">
+			<img src="images/0-2-steel-push-up-bar-stand-and-hand-grip-combo-for-men-women-original-imafqqghk6knwkt5.jpeg">
+			<p>STERLING Hand Gripper Adjustable 10kg Hand Grip/Fitness Grip  (Multicolor)</p>
+			<p class="mrp">Rs. 225 <s>Rs. 800</s></p>
+			<p class="rating">Ratings: 4.2 <span class="glyphicon glyphicon-star"></span></p>
+			<button class="buy-now">Buy-now</button>
+			<button class="add-cart" onclick="addCart()">Add to Cart</button>
+		</div>
+		<div class="item">
+			<img src="images/100-eva-eco-friendly-6-quick-shel-original-imafz8dydghc5djg.jpeg">
+			<p>Quick Shel 100%EVA Eco Friendly Purple 6 mm Yoga Mat</p>
+			<p class="mrp">Rs. 439 <s>Rs. 999</s></p>
+			<p class="rating">Ratings: 3.9 <span class="glyphicon glyphicon-star"></span></p>
+			<button class="buy-now">Buy-now</button>
+			<button class="add-cart" onclick="addCart()">Add to Cart</button>
+		</div>
+	</div>
+
+	<div id="myModal1" class="modal fade " role="dialog">
+	  <div class="modal-dialog" >
+	    <!-- Modal content-->
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h4 class="modal-title">Placing Order</h4>
+	      </div>
+	      <div class="modal-body">
+	        <form>
+	        	<label for="#x1">Quantity:</label><br>
+	        	<input type="number" name="quantity"><br>
+	        	<br>
+	        	<label for="#x2">Address: </label><br>
+	        	<input type="text" name="text"><br>
+	        	<br>
+	        	<p>Choose payment method: </p>
+	        	<select id="paymentMethod">
+	        		<option>UPI</option>
+	        		<option>Credit/Debit Card</option>
+	        		<option>Net Banking</option>
+	        		<option>Cash on Delivery</option>
+	        	</select>
+	        </form>
+	      </div>
+	      <div class="modal-footer">
+	      	<button type="button" class="btn btn-default btn-primary" id="send"
+	      	data-dismiss="modal">Place Order</button>
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+
+	<hr>
+	<div id="bottom">
+		<table align="center">
+			<tr>
+				<th>Jump to page</th>
+				<th>HERE TO HELP</th>
+				<th>SIGN UP FOR NEWSLETTER</th>
+			</tr>
+			<tr>
+				<td>
+                <li><a href="../Home page/Sports website.html" onclick="Homepage()">Home page</a></li>
+                <li><a href="../sports shoe/index.html" onclick="shoes()">Sports Shoes</a></li>
+                <li><a href="../Hockey page/index.html" onclick="Hockey()">Hockey equipments</a></li>
+                <li><a href="../Badminton/index.html" onclick="Badminton()">Badminton equipments</a></li>
+				</td>
+				<td>
+	                <li><a href="../Login page/login page 2.html">Register/Login</a></li>
+	                <li><a href="#" onclick="Delivery()">Delivery Charges</a></li>
+	                <li><a href="#" onclick="payment()">Payment Options</a></li>
+	                <li><a href="#" onclick="Return()">Return</a></li>
+				</td>
+				<td>
+					<p><b>CONNECT WITH US</b></p>
+					<p id="socialIcons"><i class="fa fa-facebook-square">&nbsp;</i><i class="fa fa-twitter-square"></i>&nbsp;<i class="fa fa-instagram"></i></p>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="items cartItems">
+		
+	</div>
+
+	<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+	<script type="text/javascript" src="fitness.js"></script>
+
+
+</body>
+</html>
