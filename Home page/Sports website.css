@@ -1,0 +1,533 @@
+*{
+			margin: 0;
+			padding: 0;
+}
+.navbar{
+	font-size: 25px;
+	background-blend-mode: darken;
+	background-color: #550cd8;
+	padding: 3px;
+}
+.navbar a{
+	color: red;
+}
+.navbar-brand{
+	font-size: 35px;
+}
+
+.nav li{
+	display: inline;
+	color: cyan;
+}
+
+p.zero:before{
+	opacity: 1;
+}
+
+#header{
+	height: 100px;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	text-align: center;
+}
+/*#header form{
+	margin-right: 80px;*/
+}
+#heading{
+	color: red;
+	font-weight: bolder;
+	font-size: 40px;
+}
+
+form{
+	display: inline;
+}
+/*.search{
+	height: 100px;
+	margin-top:5px; 
+	background-color:;
+	padding-top: 35px;
+	border-bottom: 1px solid grey;
+	align-items: right;
+	align-content: right;
+	text-align: right;
+}*/
+
+input[type=text]{
+	display: inline;
+	height: 35px;
+	width: 400px;
+	padding: 2px;
+	margin-left: 565px;
+}
+
+#shIcon{
+	margin-left: 80px;
+	font-size: 30px;
+}
+
+#shCart{
+	font-size: 30px;
+	margin-left: 10px;
+	margin-right: 6px;
+}
+#d1{
+	height: 600px;
+	border: 1px solid black;
+	background-image: url("images/71b5b4a0fa0e2d6788e057227a15771c.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	background-size: 100% 100%;
+	animation-name: abc;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-direction: normal;
+}
+@keyframes abc{
+	0%,100% {background-image: url("images/71b5b4a0fa0e2d6788e057227a15771c.jpg");}
+	25% {background-image: url("images/photo-1534438327276-14e5300c3a48.jpg");}
+	50% {background-image: url("images/sports-equipment-sports-equipment-has-fallen-down-heap-115289644.jpg");}
+	75% {background-image: url("images/gym-fitness-center-exercise-equipment-treadmills-gym-concept.jpg");}
+}
+#search-option{
+	background-color: #9e9e9e;
+	font-size: 27px;
+	border-bottom: 1px solid black;
+}
+#search-option a{
+	margin-left: 20px;
+	text-decoration: none;
+	color: black;
+}
+#search-option a:hover{
+	background-color: black;
+	color: white;
+
+	transition-duration: 0.5s;
+}
+
+#sports-section{
+	visibility: hidden;
+	width: 70%;
+	display: inline-block;
+	background-color: white;
+}
+#sportsOp{
+	background-color: white;
+	list-style: none;
+	border: 0.5px solid lightgrey;
+	width: 14%;
+	margin-left: 10px;
+	display: none;
+	box-shadow: 2px 2px 8px black;
+}
+#sportsOp a{
+	display: block;
+	margin-top: 5px;
+	margin-left: 5px;
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#sportsOp a:hover{
+	font-weight: bolder;
+	color: grey;
+}
+#sportsOp .a1{
+	color: black;
+}
+#table1{
+	padding: 20px;
+}
+ol{
+	list-style: none;
+}
+dt{
+	margin-left: 20px;
+	margin-right: 10px;
+	color: brown; 
+}
+dl{
+	list-style: none;
+
+}
+
+/*li{
+	margin-left:-40px;
+	padding-left: 20px;
+	color: black;
+}
+li:hover{
+	text-shadow: 2px 2px 8px red;
+	transition-duration: 0.5s; 
+	font-weight: bold;
+	margin-top: 3px;
+}*/
+b{
+	font-size: 15px;
+}
+#fitnessOp{
+	background-color: white;
+	list-style: none;
+	border: 0.5px solid lightgrey;
+	width: 12%;
+	margin-left: 10px;
+	display: none;
+	box-shadow: 2px 2px 8px black;
+	margin-left: 140px;
+}
+#fitnessOp a{
+	display: block;
+	margin-top: 5px;
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#fitnessOp a:hover{
+	font-weight: bolder;
+	color: grey;
+}
+#fitnessOp .a1{
+	color: black;
+}
+#shoesOp{
+	background-color: white;
+	list-style: none;
+	border: 0.5px solid lightgrey;
+	width: 10%;
+	margin-left: 300px;
+	display: none;
+	position: sticky;
+	box-shadow: 2px 2px 8px black;
+}
+#shoesOp a{
+	display: block;
+	margin-top: 5px;
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#shoesOp a:hover{
+	font-weight: bolder;
+	color: grey;
+}
+#shoesOp .a1{
+	color: black;
+}
+#accessoriesOp{
+	background-color: lightgrey;
+	list-style: none;
+	border: 0.5px solid lightgrey;
+	width: 13%;
+	margin-left: 423px;
+	display: none;
+	box-shadow: 2px 2px 8px black;
+}
+#accessoriesOp a{
+	display: block;
+	margin-top: 5px;
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#accessoriesOp a:hover{
+	font-weight: bolder;
+}
+#accessoriesOp .a1{
+	color: black;
+}
+#slideShow{
+	width: 1500px;
+	height: 700px;
+	background-image: url("images/sports-equipment-sports-equipment-has-fallen-down-heap-115289644.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	background-size: cover;
+	animation-name: sli;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate-reverse;
+	border: 1px solid black;
+	margin: 20px;
+	margin-left: 40px;
+
+}
+@keyframes sli{
+	0% {background-image: url("images/sports-equipment-sports-equipment-has-fallen-down-heap-115289644.jpg");}
+	25% {background-image: url("images/balls-60246_1920.jpg");}
+	50% {background-image: url("images/116870573-sports-equipment-on-a-black-background-top-view-motivation.jpg");}
+	75% {background-image: url("images/sports-gear.jpg");}
+	100% {background-image: url("images/394a8514c21be4c0fc80e3d2a9879019.jpg");}
+}
+
+#d2{
+	height: auto;
+	margin: 10px;
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+}
+
+.cd2{
+	border: 1px solid black;
+	width: 27%;
+	height: 450px;
+	margin: 10px;
+	margin-left: 90px;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: 110% 110%;
+	box-shadow: 0px 0px 8px 10px #888888;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	text-align: center;
+}
+@media only screen and (max-width:1000px){
+	.cd2{
+		width: 50%;
+		margin: auto;
+	}
+}
+#d2 div:hover{
+	background-size: 120% 120%;
+	transition-duration: 1s;
+}
+#d21{
+	margin-left: 60px;
+	background-size: 100% 100%;
+	background-image: url("images/dietitian-nutritionist-radius.jpg");
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	text-align: center;
+}
+#d22{
+	background-image: url("images/pose-muscle-muscle-rod-press-hd-wallpaper-preview.jpg");
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	text-align: center;
+}
+#d23{
+	background-image: url("images/unnamed.jpg");
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	text-align: center;
+}
+#d211,#d221,#d231{
+	background-color: #808080ad;
+	height: 70%;
+	width: 70%;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+	text-align: center;
+	margin: 15%;
+	padding: 15%;
+	color: white;
+	visibility: hidden;
+}
+#d21:hover #d211{
+	visibility: visible;
+	transition-duration: 1s;
+}
+#d22:hover #d221{
+	visibility: visible;
+	transition-duration: 1s;
+}
+#d23:hover #d231{
+	visibility: visible;
+	transition-duration: 1s;
+}
+#d211 a,#d221 a,#d231 a{
+	text-decoration: none;
+	color: pink;
+}
+
+#choices{
+	height: 900px;
+	width: 97%;
+	display: flex;
+	flex-wrap: wrap;
+	align-self: center;
+	align-content: center;
+	align-items: center;
+	margin-left: 30px;
+	background-color: lightcyan;
+}
+hr{
+	color: red;
+}
+#famousSports{
+	text-align: center;
+	font-weight: bolder;
+	color: pink;
+	font-size: 45px;
+}
+#choices div{
+	background-color: white;
+	height: 38%;
+	width: 30%;
+	border: 2px solid darkgrey;
+	margin: 20px;
+	margin-top: 10px;
+	box-shadow:0px 0px 10px black;
+}
+#choices div a{
+	font-size: 20px;
+	color: skyblue;
+}
+/*#choices div:hover{
+	box-shadow: 0px 0px 5px 15px pink;
+	transition-duration: 2s;
+	background-size: 120% 120%;
+	transition-duration: 1s;
+}
+#choices div:hover a{
+	visibility: visible;
+	transition-duration: 1s; 
+}*/
+#choice1{
+	align-self: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	background-color: grey;
+}
+#choice1 img:hover{
+	box-shadow: 0px 0px 5px 5px darkgrey;
+	transition-duration: 1s;
+}
+#choice2{
+	background-color: grey;
+	align-self: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+#choice2 img:hover{
+	box-shadow: 0px 0px 5px 5px darkgrey;
+	transition-duration: 1s;
+}
+#choice3{
+	background-color: grey;
+	align-self: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+#choice3 img:hover{
+	box-shadow: 0px 0px 5px 5px darkgrey;
+	transition-duration: 1s;
+}
+#choice4{
+	align-self: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+#choice4 img:hover{
+	box-shadow: 0px 0px 5px 5px darkgrey;
+	transition-duration: 1s;
+}
+#choice5{
+	align-self: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+#choice5 img:hover{
+	box-shadow: 0px 0px 5px 5px darkgrey;
+	transition-duration: 1s;
+}
+#choice6{
+	align-self: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+#choice6 img:hover{
+	box-shadow: 0px 0px 5px 5px darkgrey;
+	transition-duration: 1s;
+}
+#about{
+	height: 400px;
+	width: 98%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px;
+	margin-left: 20px;
+	padding: 10px;
+	background-color: #f5889b;
+}
+#aboutHead{
+	font-size: 40px;
+	color: violet;
+	font-weight: bolder;
+	text-align: center;
+}
+#about1{
+	height: 350px;
+	width: 450px;
+	background-image: url("images/394a8514c21be4c0fc80e3d2a9879019.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	background-size: 100% 100%;
+	margin-left: 10px;
+	margin-top: 10px;
+	box-shadow: 0px 0px 10px 10px grey;
+}
+#about2{
+	margin-left: 10px;
+	height: 350px;
+	width: 800px;
+	margin-left: 50px;
+}
+#about-us{
+	font-size: 25px;
+	margin: 10px;
+	font-style: italic;
+	word-spacing: 5px;
+	text-shadow: 1px 1px #FF0000;
+}
+#bottom{
+	width: 100%;
+	height: 250px;
+	background-color: #312e2e;
+}
+#bottom li{
+	color: white;
+}
+#bottom a { color: #ccc }
+
+#bottom table{
+	margin-left: 300px;
+	color: white;
+}
+#socialIcons{
+	font-size: 40px;
+}
+#bottom td{
+	width: 350px;
+	height: 40px;
+}
+#wholepage{
+	width:1450px;
+	margin-right:auto;
+	margin-left:auto;}
